@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+    background:linear-gradient(rgb(18, 18, 82),rgb(18, 56, 18));
+    background:linear-gradient(to left,rgb(82, 82, 234),to right,rgb(56, 152, 56));
+}
+p{
+    border-style: outset;
+    border-width: 1px;
+    border-color: aliceblue;
+    padding:1.5%;
+    background-color: black;
+}
+h1{
+    background-color: black;
+}
+h2{
+    background-color:black ;
+}
+img{
+    border-style: dotted;
+    border-color: aliceblue;
+    border-width: 1px;
+    padding: 0.4%;
+    margin: 0.5%;
+    background-color: black;
+    animation: myslide;
+    animation-play-state:running;
+    animation-delay: 10s;
+    animation-timing-function:linear;
+    animation-duration: 20s;
+    animation-iteration-count:unset;
+    animation-direction:alternate-reverse;
+}
+@keyframes myslide{
+from{margin:0%;}
+to{margin-left:100%;}
+}
+
