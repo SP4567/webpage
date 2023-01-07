@@ -1,16 +1,6 @@
-a:link{
-    color:lawngreen;
+form{
+    text-shadow: 0px 0px 5px yellow,0px -5px 5px red;
 }
-a:visited{
-    color: darksalmon;
-}
-a:hover{
-    color:tomato;
-}
-a:active{
-    color: yellow;
-}
-button:hover{
-    color: yellowgreen;
-    background-color: aliceblue;
-}
+hover
+    {
+    box-shadow: 5px 5px 0px black;}
