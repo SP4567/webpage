@@ -1,2 +1,2 @@
 # webpage
-Contains code for the building a basic webpage
+Contains code for developing a basic webpage
